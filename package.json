@@ -9,8 +9,13 @@
     "parcel": "^2.0.0-rc.0",
     "sass": "^1.26.7"
   },
+  "scripts": {
+    "start": "parcel client/index.html && parcel watch client/index.html"
+  },
   "dependencies": {
+    "@noble/secp256k1": "^1.5.5",
     "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
     "express": "^4.17.1"
   }
 }
